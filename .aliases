@@ -1,0 +1,20 @@
+#!/usr/bin/env bash 
+
+# Easier navigation: .., ..., ~, and/
+alias ..="cd .."
+alias ...="cd ../.."
+alias ~="cd ~"
+alias /="cd ?"
+
+# shortcuts
+alias docu="cd ~/Documents"
+alias desk="cd ~/Desktop"
+alias down="cd ~/Downloads"
+
+
+# Google Chrome
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
