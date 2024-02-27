@@ -18,3 +18,13 @@ alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Ch
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# get ip address
+alias ip="ipconfig getifaddr en0"
+alias routerip="netstat -rn | grep default"
+
+# incorrectly signed certificate(unidentified developer)
+alias @qua="sudo xattr -r -d com.apple.quarantine $1"
+
+# sign
+alias @sign="sudo codesign --force --deep --sign - $1"

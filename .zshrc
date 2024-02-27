@@ -2,9 +2,13 @@
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 # Set docker CLI tools
 export PATH=$PATH:~/.docker/bin
+# Set pyenv
+#export PYENV_ROOT="$HOME/.pyenv"
+#command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
 
 #GNU coreutils and etc
-export PATH=$PATH:/Users/niyasushi/Library/Python/3.11/bin
+#export PATH=$PATH:/Users/andy/Library/Python/3.11/bin
 #PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 #PATH="/usr/local/opt/gawk/libexec/gnubin:$PATH"
 #PATH="/usr/local/opt/gnu-indent/libexec/gnubin:$PATH"
